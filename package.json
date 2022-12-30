@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dialog": "^0.3.1",
+    "discord-rpc": "^4.0.1",
+    "node-notifier": "^10.0.1",
+    "sudo-prompt": "^9.2.1"
+  },
+  "name": "song-linux-discord-rpc",
+  "description": "Display your media as Discord activity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg -t node16-linux-x64 -o build/linux-currently-playing index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
